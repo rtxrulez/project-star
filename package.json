@@ -1,0 +1,39 @@
+{
+    "name": "iridium",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build"
+    },
+    "author": "rtxrulez",
+    "license": "ISC",
+    "config": {
+        "src": {
+            "templates": "src/templates/",
+            "styles": "src/styles/"
+        },
+        "build": {
+            "html": "build/",
+            "css": "build/styles"
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "devDependencies": {
+        "autoprefixer": "^7.1.2",
+        "browser-sync": "^2.26.5",
+        "gulp": "^3.9.1",
+        "gulp-compile-handlebars": "^0.6.1",
+        "gulp-postcss": "^7.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-replace": "^0.6.1",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "require-dir": "^0.3.2",
+        "run-sequence": "^2.1.0"
+    }
+}

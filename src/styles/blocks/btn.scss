@@ -1,0 +1,47 @@
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    padding: 9px 15px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: $border-radius;
+    user-select: none;
+    text-decoration: none;
+    border: 0;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .8;
+}
+
+.btn-primary {
+    background-color: $primary;
+    color: white;
+    box-shadow: 0 0.2rem 0.3rem 0 rgba(0,0,0,0.3);
+    border: 0.1rem solid #0000;
+}
+
+.btn-light {
+    background-color: transparent;
+    color: $text-primary;
+    border: 1px solid $text-primary;
+    box-shadow: 0 0.2rem 0.3rem 0 rgba(0,0,0,0.3);
+}
+
+.btn-yellow {
+    background: $yellow;
+    color: $text-primary;
+    font-weight: bold;
+}
+
+.btn-success {
+    background: $green;
+    color: white;
+    box-shadow: 0 0.2rem 0.3rem 0 rgba(0,0,0,0.3);
+}
